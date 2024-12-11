@@ -1,11 +1,5 @@
 ---
 timeline:
-  - '9:00 AM'
-  - '9:30 AM'
-  - '10:00 AM'
-  - '10:30 AM'
-  - '11:00 AM'
-  - '11:30 AM'
   - '12:00 PM'
   - '12:30 PM'
   - '1:00 PM'
@@ -18,49 +12,34 @@ timeline:
   - '4:30 PM'
   - '5:00 PM'
   - '5:30 PM'
+  - '6:00 PM'
+  - '6:30 PM'
+  - '7:00 PM'
+  - '7:30 PM'
+  - '8:00 PM'
 schedule:
   - name: Monday
-    events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
   - name: Tuesday
-  - name: Wednesday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 4:00 PM
+        end: 5:30 PM
+        location: LSB 101
+      - name: LAB 01
+        start: 5:30 PM
+        end: 7:30 PM
+        location: LAS 1002B
+  - name: Wednesday
   - name: Thursday
+    events:
+      - name: Lecture
+        start: 4:00 PM
+        end: 5:30 PM
+        location: LSB 101
   - name: Friday
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+      - name: LAB 02
+        start: 3:30 PM
+        end: 5:30 PM
+        location: LAS 1002B
 ---

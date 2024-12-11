@@ -1,5 +1,5 @@
 ---
-name: John Doe
+name: Marios Fokaefs
 role: Instructor
 # email: See eClass
 # website: https://kevinl.info
