@@ -1,13 +1,20 @@
 ---
-title: Week 1 - Getting Started
+title: Week 1 - Course Introduction & Getting Started
 ---
 
-Jan 6 
-: [IDE Installation](#)
-  : [Download](#)
+Task 1
+: **Mandatory**{: .label .label-red }[IDE Installation](#)
+  : [Download](#), [Tutorial](#)
 
-Jan 10
-: **Supplement**{: .label .label-purple }[TA Recitation](#)
-  : [Slides](#), [Video](#)
+Task 2
+: **Recommended**{: .label .label-green }[EECS Activ8 Account](https://webapp.eecs.yorku.ca/activ8/)
+  : [Register](https://webapp.eecs.yorku.ca/activ8/)
 
+Task 3
+: **Optional**{: .label .label-yellow }[TA Recitation](#)
+  : [Slides](#), [Demo](#)
+
+Task 4
+: **Optional**{: .label .label-yellow }[Useful Resources](#)
+  : [Ref1](#), [Ref2](#), [Ref3](#), [Ref4](#)  
 
