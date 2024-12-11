@@ -42,7 +42,7 @@ The objectives of the lab sessions are to:
 
 Please check that you have completed the following prior to submitting your lab and leaving:
 - [x] Signing the attendance sheet and getting the TA to approve your submission.
-- [x] Submitting the files to ____ with **correct names**. 
+- [x] Submitting the **zipped** project to **eClass**. Make sure that your Java classes have the **correct names**. 
 - [x] **Documenting** your code with in-line and block-comments.
 - [x] Ensuring the correctness of youre solution; **Your code should compile and run without exceptions.**
 
