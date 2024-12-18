@@ -26,10 +26,12 @@ The design and implementation of user interfaces for touchscreen devices and tab
 
 | Deliverable | Total Weight |
 |:-------------|:------------------|
-| Quizzes (x ?) | ?% |
-| Labs (x ?) | ?% |
-| Midterm (x ?) | ?% |
-| Final Exam (x ?) | ?% |
+| Quizzes | 10% |
+| Labs | 10% |
+| Project Proposal | 10% |
+| Assignment | 10% |
+| Final Exam | 35% |
+| Project | 25% |
 
 </div>
 
@@ -46,8 +48,14 @@ Please check that you have completed the following prior to submitting your lab 
 - [x] **Documenting** your code with in-line and block-comments.
 - [x] Ensuring the correctness of youre solution; **Your code should compile and run without exceptions.**
 
-**Warning**{: .label .label-red } Students who do not demo their lab and sign the attendance sheet in-person will receive an **80%** deduction on their lab mark.
+
+<hr>
+**Warning**{: .label .label-red } Please carefully read the following points:
+
+1. Late submissions will receive a **10% deduction per day**. After two days of delay, the assignment will receive a zero. 
+
+2. Labs that are not checked and signed-off by the TA will receive an **80% deduction** during grading. 
+<hr>
 
 ## Contact Policy
-1. Questions about **course logistics & lecture materials** should be addressed in-class. 
-2. Questions about **labs** should be addressed in-person at LAS1002B.
+A Slack workspace will be available and monitored by the teaching team. **All questions should be posted and will be answered on Slack.**
