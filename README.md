@@ -58,4 +58,6 @@ Please check that you have completed the following prior to submitting your lab 
 <hr>
 
 ## Contact Policy
-A Slack workspace will be available and monitored by the teaching team. **All questions should be posted and will be answered on Slack.**
+A Slack workspace will be available and monitored by the teaching team. 
+
+**All questions should be posted and will be answered on Slack.**
