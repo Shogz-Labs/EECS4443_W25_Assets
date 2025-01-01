@@ -2,16 +2,22 @@
 title: Week 1 - Course Introduction & Getting Started
 ---
 
-Task 1
+Primary
 : **Mandatory**{: .label .label-red }[IDE Installation](#)
   : [Download](https://developer.android.com/studio)
 
-Task 2
+: **Mandatory**{: .label .label-red }[Download Course Demos](https://github.com/yorku-ease/EECS4443-Demos)
+  : [Download](https://github.com/yorku-ease/EECS4443-Demos)
+
 : **Recommended**{: .label .label-green }[Create an EECS Activ8 Account](https://webapp.eecs.yorku.ca/activ8/)
   : [Register](https://webapp.eecs.yorku.ca/activ8/)
 
-: **Recommended**{: .label .label-green }[Download Course Demos](#)
-  : [Download](https://github.com/yorku-ease/EECS4443-Demos)
+Optional
+: **Recommended**{: .label .label-green }[TA Course Introduction Slides](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%201%20-%20Course%20Introduction.pdf)
+  : [View](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%201%20-%20Course%20Introduction.pdf)
+
+: **Recommended**{: .label .label-green }[Android Studio (Video Tutorial)](https://www.youtube.com/watch?v=tZvjSl9dswg)
+  : [Watch](https://www.youtube.com/watch?v=tZvjSl9dswg)
 
 
 <!--
