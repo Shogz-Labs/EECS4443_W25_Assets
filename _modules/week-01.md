@@ -13,8 +13,9 @@ Primary
   : [Register](https://webapp.eecs.yorku.ca/activ8/)
 
 Optional
-: **Recommended**{: .label .label-green }[TA Course Introduction Slides](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%201%20-%20Course%20Introduction.pdf)
-  : [View](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%201%20-%20Course%20Introduction.pdf)
+: **Recommended**{: .label .label-green }[TA Slides](https://github.com/Shogz-Labs/EECS4443_W25_Assets/tree/main/ta_recitations/slides)
+  : [1](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%201%20-%20Course%20Introduction.pdf), [2](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%201%20-%20Android%20App%20Anatomy.pdf)
+
 
 : **Recommended**{: .label .label-green }[Android Studio (Video Tutorial)](https://www.youtube.com/watch?v=tZvjSl9dswg)
   : [Watch](https://www.youtube.com/watch?v=tZvjSl9dswg)
