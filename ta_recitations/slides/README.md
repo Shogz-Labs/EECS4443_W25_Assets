@@ -2,4 +2,5 @@
 | ----- | ----- | 
 | Week 1 - Course Introduction | Covers a brief TA introduction, lab logistics, and supplementary resources to help you learn and master the course objectives. |
 | Week 1 - Android App Anatomy | Introduces students to the Model-View Controller (MVC) software design pattern. The most crucial Android components are introduced such as the Manifest, Build Gradle, and Activity. Layouts are briefly discussed, however, it is the students responsibility to read the documentation. Lastly, event listeners are covered with two case studies and demo code. |
-| Week 3 - Developing Good UI and Software | Introduces students to practical design guidelines, dark patterns, and software design patterns with relation to Android App Development (e.g., Model-View Controller). |
+| Week 2 - Developing Good UI and Software | Introduces students to practical design guidelines, dark patterns, and software design patterns with relation to Android App Development (e.g., Model-View Controller). |
+| Week 3 - Human-Computer Interaction and the Activity Lifecycle | Introduces students to the prerequisite knowledge required to plan and carry out a user study. Students are also introduced to the Android Activity Lifecycle. By the end of the tutorial, they should be able to build applications that can save and restore themselves upon their destruction. |
