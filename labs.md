@@ -108,7 +108,10 @@ description: Commonly asked questions + Hints about the lab
 
     **TA Response:** The window background colour of the activity should be changed to **#ff123456** without modifying the layout width or height of the LinearLayout. 
     
-    To do this, please read the [documentation](https://developer.android.com/develop/ui/views/theming/themes) on applying **styles** to your Android application.   
+    To do this, please read the [documentation](https://developer.android.com/develop/ui/views/theming/themes) on applying **styles** to your Android application.  
+
+    See the example screenshot for reference. I made the background colour green.
+    <img src = "https://raw.githubusercontent.com/Shogz-Labs/EECS4443_W25_Assets/refs/heads/main/assets/images/screenshots/lab_2.png" height="250px" width="200px">
 
 5. Can you please elaborate on how complex my original feature should be?
 
@@ -118,7 +121,12 @@ description: Commonly asked questions + Hints about the lab
 
 6. I've spent hours trying to finish this lab... I'm at a complete loss of how to proceed.  What should I do?
 
-    **TA Response:** Please take a ready through the [Demo_Layout](https://yorku-ease.github.io/EECS4443-Demos/Demo_Layout/index.html) and [Demo_Buttons](https://yorku-ease.github.io/EECS4443-Demos/Demo_Buttons/index.html) documentation. You can also benefit from reading about the [activity lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle). Pay special attention to **onSaveInstanceState(@NonNull Bundle savedInstanceState)** and **onRestoreInstanceState(@NonNull Bundle savedInstanceState)**.
+    **TA Response:** Please take a ready through the [Demo_Layout](https://yorku-ease.github.io/EECS4443-Demos/Demo_Layout/index.html) and [Demo_Buttons](https://yorku-ease.github.io/EECS4443-Demos/Demo_Buttons/index.html) documentation. You can also benefit from reading about the [activity lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle). Pay special attention to the following methods:
+
+    ```java
+    protected void onSaveInstanceState(@NonNull Bundle outState)
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) 
+    ```
 
 ### Lab 3 
 
