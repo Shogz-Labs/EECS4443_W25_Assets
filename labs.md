@@ -121,7 +121,7 @@ description: Commonly asked questions + Hints about the lab
 
 6. I've spent hours trying to finish this lab... I'm at a complete loss of how to proceed.  What should I do?
 
-    **TA Response:** Please take a ready through the [Demo_Layout](https://yorku-ease.github.io/EECS4443-Demos/Demo_Layout/index.html) and [Demo_Buttons](https://yorku-ease.github.io/EECS4443-Demos/Demo_Buttons/index.html) documentation. You can also benefit from reading about the [activity lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle). Pay special attention to the following methods:
+    **TA Response:** Please take a read through the [Demo_Layout](https://yorku-ease.github.io/EECS4443-Demos/Demo_Layout/index.html) and [Demo_Buttons](https://yorku-ease.github.io/EECS4443-Demos/Demo_Buttons/index.html) documentation. You can also benefit from reading about the [activity lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle). Pay special attention to the following methods:
 
     ```java
     protected void onSaveInstanceState(@NonNull Bundle outState)
