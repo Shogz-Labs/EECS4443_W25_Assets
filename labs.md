@@ -54,7 +54,7 @@ description: Commonly asked questions + Hints about the lab
 
 <hr>
 
-### Lab 1 
+### Lab 1 (Demo_Android)
 1. I keep getting errors when importing **Demo_Android**! The app won't event run.... 
 
     **TA Response:** Firstly, please make sure that you have downloaded the lab from [here](https://github.com/yorku-ease/EECS4443-Demos). The older source is known to have problems with newer versions of Android Studio.
@@ -91,8 +91,39 @@ description: Commonly asked questions + Hints about the lab
 
     Lastly, you can refer to [Demo_Elections.zip](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/demos/DemoElections.zip). Look at what I've done and use the documentation to understand how the code and xml work together.
 
-### Lab 2
-1. TBD
+### Lab 2 (Demo_Buttons)
+1. I imported Demo_Buttons into Android Studio. Everything worked fine until I refactored the package and class names. I keep getting **java.lang.ClassNotFoundException**! Please help, what should I do!?
 
-    **TA Response: TBD**
+    **TA Response:** Please go to AndroidManifest.xml and ensure that **android:name** is properly defined in your activity tag. It should be, **".DemoButtons99999Activity"**.
+
+2. My Views are being cropped when the Activity changes orientation. What should I do? Help!
+    
+    **TA Response:** You will either need to re-arrange the views in your defined horizontal layout (layout-land) or use a ScrollView as the top-most parent. 
+
+3. What exactly do I need to save and restore?
+
+    **TA Response:** Run the application and investigate what happens when you tap the widgets and change the screen orientation. You will find that certain View properties are natively managed by the Android OS. Don't save and restore states that are already supported.
+
+4. I'm confused by Task 4 part 1. Can you please give me some clarification?
+
+    **TA Response:** The window background colour of the activity should be changed to **#ff123456** without modifying the layout width or height of the LinearLayout. 
+    
+    To do this, please read the [documentation](https://developer.android.com/develop/ui/views/theming/themes) on applying **styles** to your Android application.   
+
+5. Can you please elaborate on how complex my original feature should be?
+
+    **TA Response:** Well.. You can't go wrong with adding a new image button... I tend to like creative and unique features!
+
+    Please don't just change a property in the layout (XML) that does not add any substantial contributions to UI/UX.
+
+6. I've spent hours trying to finish this lab... I'm at a complete loss of how to proceed.  What should I do?
+
+    **TA Response:** Please take a ready through the [Demo_Layout](https://yorku-ease.github.io/EECS4443-Demos/Demo_Layout/index.html) and [Demo_Buttons](https://yorku-ease.github.io/EECS4443-Demos/Demo_Buttons/index.html) documentation. You can also benefit from reading about the [activity lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle). Pay special attention to **onSaveInstanceState(@NonNull Bundle savedInstanceState)** and **onRestoreInstanceState(@NonNull Bundle savedInstanceState)**.
+
+### Lab 3 
+
+1. TBD 
+
+    **TA Response:** TBD
+
 <hr> 
