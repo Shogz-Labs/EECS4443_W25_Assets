@@ -128,10 +128,48 @@ description: Commonly asked questions + Hints about the lab
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) 
     ```
 
-### Lab 3 
+### Lab 3 (Demo_Scale) 
+
+1. How can I replace the image of Vari Hall at run-time? I am so confused!!
+    
+    **TA Response:** You need to use an [Intent](https://developer.android.com/reference/android/content/Intent). Make sure that you set the type and action appropriately for the task. 
+
+    Furthermore, you will need to override:
+
+    ```java
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    ```
+
+    to interface with **startActivityForResult()**. 
+
+    **Note:** Loading the image at run-time requires you to convert the Uri from data into a Drawable.
+
+2. How can I ensure that scaling only occurs when I tap the image?
+
+    **TA Response:**  You should carefully consult the [Demo_Scale Documentation](https://yorku-ease.github.io/EECS4443-Demos/Demo_Scale/index.html).
+
+    
+    <b>"This is a simple matter of creating a rectangle holding the current coordinates of the image and passing the rectangle to the contains method of the RectF class, along with the x-y coordinate of the touch point. The return value is true if the touch point is inside the image."</b>
+    
+
+    Most of the code has already been provided for you. Simply copy-paste, make modifications, and add sufficient documentation!
+
+3. I'm confused about Task 4 (Part 2). Can you expand on scaling the zoom-in at the location of the double-tap?
+
+    **TA Response:** Once you double-tap the image, it should be scaled (zoomed-in) and <b><u>repositioned</u></b> to maintain the focal point. 
+    A focal point is the region that you tapped (or more appropriately, the part of the image for which you are interested in viewing.)
+
+    For example, if I tap the top-right corner, the image needs to be scaled and shifted to the left, maintaining the focal point. 
+    I may end up posting a YouTube recording demonstrating the expected behaviour if there is still confusion.
+
+4. What kinds of original features should we try to implement?
+
+    **TA Response:** Be creative! Again, the feature should be justfiable; simply changing a property in the widget that adds no UI improvements is not a good idea...
+    One example idea is to change the background colour of PaintPanel to black when you Zoom-in so that the image pops out more.
+
+### Lab 4 (Demo_TiltBall)
 
 1. TBD 
 
     **TA Response:** TBD
-
 <hr> 
