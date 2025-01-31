@@ -1,5 +1,5 @@
 ---
-title: Week 7 - Performance, Profiling, Monitoring, and Benchmarking
+title: Week 7 - Performance, Profiling, Monitoring, & Benchmarking
 ---
 
 Primary
@@ -13,5 +13,8 @@ Primary
   : [View](https://developer.android.com/topic/performance/benchmarking/benchmarking-overview)
 
 Optional
+: **Recommended**{: .label .label-green }[TA Slides](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%207%20-%20Performance%2C%20Profiling%2C%20Monitoring%2C%20%26%20Benchmarking.pdf)
+  : [View](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%207%20-%20Performance%2C%20Profiling%2C%20Monitoring%2C%20%26%20Benchmarking.pdf) 
+
 : **Recommended**{: .label .label-green }[TA Demos](https://github.com/Shogz-Labs/EECS4443_W25_Assets/tree/main/ta_recitations/demos)
   : [View](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/demos/DemoCaesar%20(UI%20Testing%20%2B%20Benchmarking).zip)
