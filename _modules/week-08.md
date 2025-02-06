@@ -20,8 +20,8 @@ Primary
 
 Optional
 
-: **Recommended**{: .label .label-green }[TA Slides]()
-  : [View]() 
+: **Recommended**{: .label .label-green }[TA Slides](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%208%20-%20Introduction%20to%20Sensors%20%26%20View%20Flavours%20.pdf)
+  : [View](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/slides/Week%208%20-%20Introduction%20to%20Sensors%20%26%20View%20Flavours%20.pdf) 
 
 : **Recommended**{: .label .label-green }[TA Demos](https://github.com/Shogz-Labs/EECS4443_W25_Assets/tree/main/ta_recitations/demos)
   : [1](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/demos/DemoSensors.zip), [2](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/demos/DemoCustomViews.zip)
