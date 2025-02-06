@@ -1,5 +1,5 @@
 ---
-title: Week 8 - Introduction to Sensors & Custom Views 
+title: Week 8 - Introduction to Sensors & View Flavours
 ---
 
 Primary
@@ -19,5 +19,9 @@ Primary
   : [View](https://developer.android.com/reference/android/view/Display)
 
 Optional
+
+: **Recommended**{: .label .label-green }[TA Slides]()
+  : [View]() 
+
 : **Recommended**{: .label .label-green }[TA Demos](https://github.com/Shogz-Labs/EECS4443_W25_Assets/tree/main/ta_recitations/demos)
   : [1](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/demos/DemoSensors.zip), [2](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/demos/DemoCustomViews.zip)
