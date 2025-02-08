@@ -48,6 +48,10 @@ description: Commonly asked questions + Hints about the lab
     - **Sync Project with Gradle Files:** Click the elephant icon located in the top right corner. Problems occur here when you change build.gradle as everything goes out-of-sync.
     - **File > Invalidate Caches...:** Make sure to select all of the optional parameters and restart the IDE. Caches and indexes are deleted and the project is rebuilt reducing the likelihood of propagated errors.
     - If all else fails, then you need to use Android Lint, the debugger (e.g., breakpoints), and ensure that your XML files (e.g., layouts) are correct.   
+
+7. How do I install a SDK?
+
+    **TA Response:** You can download a SDK by navigating to **File > Settings > Languages & Frameworks > Android SDK** and following the installation steps.
 <hr>
 
 ## Lab Questions & Hints
@@ -142,7 +146,7 @@ description: Commonly asked questions + Hints about the lab
 
     to interface with **startActivityForResult()**. 
 
-    **Note:** Loading the image at run-time requires you to convert the Uri from data into a Drawable.
+    **Note:** Loading the image at run-time requires you to convert the Uri from data into a Drawable. You may reference [Demo_Drawables](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/demos/DemoDrawables.zip) as an example.
 
 2. How can I ensure that scaling only occurs when I tap the image?
 
