@@ -173,7 +173,107 @@ description: Commonly asked questions + Hints about the lab
 
 ### Lab 4 (Demo_TiltBall)
 
-1. TBD 
+1. Do I need an Android device for this lab? I only have an iPhone!
+
+    **TA Response:** Technically, no, however, your life will be far more difficult by not using a physical device....
+    
+    Back when I was an Undergraduate student in first year (2017), you could rent out Android Tablets at William Small Center (WSC).
+    I would speak to the Lab Technician and see if you can still borrow a physical device as the [website](https://wiki.eecs.yorku.ca/lab/teaching/william_small_centre_labs) indicates this to still be the case. 
+
+    In the worst-case scenario, you can emulate pitch, roll, tilt, and position movements on the virtual device. 
+    ```xml
+    1. Start the Virtual Device
+    2. Navigate to, "Running Devices" and hover over the ">" icon. 
+    3. While hovering, click the "⋮" icon
+    4. Click, "Virtual sensors" and click, "Device Pose"
+    5. Profit 8)
+    ```
+
+    If you have followed the above instructions correctly, you should see the following window appear:
+    ![](https://developer.android.com/static/studio/images/run/emulator-sensors.gif){:width="350px" height="200px"}
+
+
+
+2. How do I add a lap line? What about an indicator (arrow)?
+
+    **TA Response:** You should take a close look at <code>protected void onDraw(Canvas canvas)</code> which resides within **RollingBallPanel.java**.
+    
+    Some students may get confused by how the drawing coordinate system works. Please see the diagram below, which has been referenced [here](https://developer.android.com/develop/ui/compose/graphics/draw/overview).
+
+    ![](https://developer.android.com/static/develop/ui/compose/images/graphics/introduction/compose_coordinate_system_drawing.png){:width="250px" height="250px"}
+
+3. When counting laps, how can I ensure that the ball moves in a particular direction?
+
+    **TA Response:** The application already collects the necessary data for you to determine whether the ball is moving across your starting line in the correct direction. Recall the principles of **pitch, roll, and tilt**.
+
+    ![](https://www.researchgate.net/publication/342571233/figure/fig5/AS:908194540949506@1593541860899/Six-degrees-of-freedom-Rotations-pitch-yaw-and-roll-and-translations-up-down.png){:width="250px" height="250px"}
+
+4. How do I play an audio signal when the ball crosses the starting line?
+
+    **TA Response:** Please take a look at the [ToneGenerator API](https://developer.android.com/reference/android/media/ToneGenerator).
+
+5. How advanced should my anti-cheat be?
+
+    **TA Response:** Per the instructions, <i>"As a minimum check on cheating, ensure that the path of the ball for each lap extends at least to the opposite side of an imaginary vertical line down the center of the display."</i> You can be as creative as you want, so long as it works :P
+
+6. I'm having a really hard time figuring out how to keep track of my in-path time.... Can you give me some hints?
+
+    **TA Response:** I generally recommend using the [StopWatch](https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/time/StopWatch.html) class from the [Apache Commons Lang Library](https://commons.apache.org/proper/commons-lang/).
+
+    You will need to add the dependency in your **build.gradle (Module:app)**.
+    
+    ```xml
+    dependencies {
+        implementation 'androidx.appcompat:appcompat:1.7.0'
+        implementation 'com.google.android.material:material:1.12.0'
+        implementation 'androidx.activity:activity:1.10.0'
+        implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
+        implementation 'org.apache.commons:commons-lang3:3.6'
+    }
+    ```
+
+    You can also keep a running sum of in-path time using basic calculations with [System.currentTimeMillis()](https://docs.oracle.com/javase/8/docs/api/java/lang/System.html).
+
+7. How can I modify my application so that a wall hit is only registered when the ball touches a border line moving from a position inside the path?
+
+    **TA Response:** Carefully read the [Demo_Tiltball](https://yorku-ease.github.io/EECS4443-Demos/Demo_TiltBall/index.html) API. The idea is to leverage another boolean flag similar to <code>touchFlag</code>.
+
+8. I'm having trouble creating a new activity for my results screen! When I click **New > Activity**, all of the options are unavailable!?
+
+    **TA Response:** You can technically copy an existing Activity and modify it to work, however, I recommend taking the following steps:
+    ```xml   
+        1. In Gradle Scripts > gradle.properties (Project Properties), 
+        add, "android.useAndroidX=true"
+        
+        2. In Gradle Scripts > build.gradle (Module :app), 
+        change the following Sdk versions to:
+        
+        --------------------
+        compileSdk 35
+        minSdkVersion 21 
+        targetSdk 33
+        --------------------
+
+        3. Sync Project with Gradle Files
+        4. Create a new app by navigating to: app > New > Activity > Empty Views Activity
+        
+        5. In AndroidManifest.xml, set the Results Activitys' theme to one 
+        that inherits from AppCompat. 
+        
+        For example, "@style/Theme.AppCompat.Light.DarkActionBar"
+        
+        6. Sync Project with Gradle Files.
+        7. Run the application on your device.
+    ```
+
+9. What kind of original feature should I implement?
+
+    **TA Response:** You should try to be creative with this lab given that it's a game. 
+    One example would be to change the colour of the path when the ball escapes from the track.
+<hr> 
+
+### Lab 5 (Demo_Camera)
+
+1. TBD
 
     **TA Response:** TBD
-<hr> 
