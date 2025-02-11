@@ -270,6 +270,11 @@ description: Commonly asked questions + Hints about the lab
 
     **TA Response:** You should try to be creative with this lab given that it's a game. 
     One example would be to change the colour of the path when the ball escapes from the track.
+
+10. How do I start an activity from within **RollingBallPanel.java**?
+
+    **TA Response:** You need to define an [Intent](https://developer.android.com/reference/android/content/Intent).
+    Following this, you can leverage [startActivity(....)](https://developer.android.com/reference/android/content/Context#startActivity(android.content.Intent)) with the correct parent and class.
 <hr> 
 
 ### Lab 5 (Demo_Camera)
