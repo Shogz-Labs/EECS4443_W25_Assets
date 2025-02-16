@@ -275,10 +275,67 @@ description: Commonly asked questions + Hints about the lab
 
     **TA Response:** You need to define an [Intent](https://developer.android.com/reference/android/content/Intent).
     Following this, you can leverage [startActivity(....)](https://developer.android.com/reference/android/content/Context#startActivity(android.content.Intent)) with the correct parent and class.
-<hr> 
 
 ### Lab 5 (Demo_Camera)
 
-1. TBD
+1. How do I add image assets to Android Studio for my ImageButtons?
 
-    **TA Response:** TBD
+    **TA Response:** The easiest method is to leverage Android Studio's built-in [vector assets](https://developer.android.com/studio/write/vector-asset-studio#running).
+    
+    Under **res**, right-click the **drawable** directory and select **New > Vector Asset**. Change the properties as needed and click, "next" followed by, "finish".
+    
+    ![](https://developer.android.com/static/images/tools/vas-materialicon_2-2_2x.png){:width="350px" height="350px"}
+
+    You can read the [documentation](https://developer.android.com/reference/android/widget/ImageButton) to learn how to bind the vector asset to your ImageButton.
+
+2. I have changed the Buttons to ImageButtons in **DemoCameraActivity.java**. When I run the application, it is crashing without errors!!!! How do I fix this?
+
+    **TA Response:** Please ensure that you have removed the Button casts inside of ```public void initialize()```. 
+
+3. I'm really struggling with adding GridView support to the lab. Can you give me some hints and/or suggestions?
+
+    **TA Response:** Practically speaking, you should be leveraging assets from [Demo_GridView](https://yorku-ease.github.io/EECS4443-Demos/Demo_GridView/index.html).
+    To understand which files you need to copy over and how to make the corresponding changes to the lab, please carefully read the relevant documentation.
+
+    **Note:** You must cite any files that are re-used or it is considered [plagiarism](https://www.youtube.com/watch?v=k1QD2G_4Pq0).
+
+4. How do I share the loaded image through e-mail or other social media(s)? 
+
+    **TA Response:** You will need to use an [Intent](https://developer.android.com/reference/android/content/Intent). Most of the work can be re-used from referencing [Demo_Ink](https://yorku-ease.github.io/EECS4443-Demos/Demo_Ink/index.html) or [Demo_Drawables](https://github.com/Shogz-Labs/EECS4443_W25_Assets/blob/main/ta_recitations/demos/DemoDrawables.zip).
+
+    **Hint:** If you have done everything properly, you may notice a very annoying runtime error (```android.os.FileUriExposedException```) when the Intent is started.
+    
+    Please carefully read the following references to address the problem. Consider each suggestions strengths and weaknesses in terms of scalability and maintainability.
+
+    - [Android Documentation](https://developer.android.com/reference/android/os/FileUriExposedException)
+    - [StackOverflow](https://stackoverflow.com/questions/38200282/android-os-fileuriexposedexception-file-storage-emulated-0-test-txt-exposed)
+
+5. How can I implement support for the options bar in **ImageViewerActivity.java**?
+
+    **TA Response:** Carefully read Android's [Menu Documentation](https://developer.android.com/develop/ui/views/components/menus). Of particular importance are the following methods that you will need to override:
+    
+    ```java
+    public boolean onCreateOptionsMenu(Menu menu)
+    public boolean onOptionsItemSelected(@NonNull MenuItem item)
+    ```
+
+<hr>
+# Closing Remarks
+Rest here, weary travelers.
+
+By now, you've seen too many Android Studio errors.
+![](https://i.kym-cdn.com/photos/images/newsfeed/002/336/753/653.gif)
+
+In all seriousness, if you've made it this far, I assume that you have completed all of the course assessments barring the final exam.
+
+**Congratulations 🥳!!!!**
+
+It has been a pleasure having had the opportunity to work with you over the last 4 months. 
+
+I wish you all the best in your future endeavours 😆!
+
+
+Cheers,
+
+S. Toyonaga
+<hr>
