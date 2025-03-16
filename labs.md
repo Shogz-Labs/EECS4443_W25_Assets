@@ -276,6 +276,12 @@ description: Commonly asked questions + Hints about the lab
     **TA Response:** You need to define an [Intent](https://developer.android.com/reference/android/content/Intent).
     Following this, you can leverage [startActivity(....)](https://developer.android.com/reference/android/content/Context#startActivity(android.content.Intent)) with the correct parent and class.
 
+11. How do I implement support for the exit button?
+
+    **TA Response:**  In the method which supports your exit buttons onClick, you should make a call to ```finishAffinity()```.
+
+    Per the [documentation](https://developer.android.com/reference/android/app/Activity#finishAffinity()), ```finishAffinity()```  will, <i>"Finish this activity as well as all activities immediately below it in the current task that have the same affinity. [...] In this case, if the user has navigated down into any other activities of the second application, all of those should be removed from the original task as part of the task switch."</i>
+
 ### Lab 5 (Demo_Camera)
 
 1. How do I add image assets to Android Studio for my ImageButtons?
